@@ -35,6 +35,7 @@ body {
   background-color: #1c2840;
   height: 100vh;
 }
+
 header {
   display: flex;
   flex-wrap: wrap;
