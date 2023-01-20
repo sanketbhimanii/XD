@@ -1,0 +1,340 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 100;
+  src: url("./fonts/Gilroy/Gilroy-Light.eot");
+  src: url("./fonts/Gilroy/Gilroy-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 400;
+  src: url("./fonts/Gilroy/Gilroy-Medium.eot");
+  src: url("./fonts/Gilroy/Gilroy-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 600;
+  src: url("./fonts/Gilroy/Gilroy-Bold.eot");
+  src: url("./fonts/Gilroy/Gilroy-Bold.woff") format("woff");
+}
+
+/* global */
+body {
+  font-family: "Gilroy";
+  margin: 0 100px;
+}
+
+/* header start */
+.container-flude {
+  background-color: #1c2840;
+  height: 100vh;
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 100px 40px 60px;
+  justify-content: space-between;
+}
+.header-logo {
+  width: 30%;
+}
+.header-logo .main-logo {
+  width: 30%;
+}
+.nav.nav-iteams {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.nav-items.item-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0 36px;
+  font-size: 24px;
+  font-weight: 100;
+}
+.item-list .iteams {
+  padding: 0 30px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+.logo-search {
+  width: 25px;
+}
+.menu-logo {
+  width: 55px;
+}
+
+/* header end */
+
+/* media section start */
+
+.media-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  padding: 50px 100px 20px 20px;
+}
+.media {
+  padding: 0 10px;
+  width: 25px;
+}
+
+/* media section end */
+
+/* about-compny section start */
+.about-compny {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  padding-bottom: 150px;
+  background-color: #1c2840;
+}
+
+.about-detail {
+  padding: 130px 50px 180px 150px;
+  width: 45%;
+}
+
+.about-logo {
+  padding: 130px 150px 180px 50px;
+  width: 45%;
+}
+.compny-logo {
+  width: 100%;
+}
+
+.information-title {
+  font-size: 56px;
+  padding: 22px 0;
+  position: relative;
+}
+
+.information-hr {
+  border: 1px solid white;
+  width: 40%;
+}
+
+.about-information {
+  font-size: 22px;
+  line-height: 40px;
+  padding: 22px 0;
+}
+
+/* about-compny section start */
+
+/* vision section */
+
+.vision {
+  background-color: #cea466;
+}
+.vision-section {
+  height: 100vh;
+  background-color: #cea466;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.vision-main-title {
+  font-size: 72px;
+  font-weight: 600;
+  color: #fff;
+  padding: 36px 0;
+}
+
+.title {
+  font-weight: 100;
+}
+
+.tital-a {
+  font-style: italic;
+}
+
+.title-Vision {
+  text-decoration: underline;
+}
+
+.vision-information {
+  font-size: 36px;
+  color: #fff;
+  padding: 36px 0 72px 0;
+  line-height: 42px;
+  word-spacing: 5px;
+  text-align: center;
+}
+
+.vision-btn {
+  padding: 22px 72px;
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: #cea466;
+  border: 2px solid #fff;
+  color: #fff;
+}
+/* vision section end */
+
+/*specification-section  */
+.specification-section {
+  height: 100vh;
+}
+.specification-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.specification-iteam {
+  background-image: url(./img/Decisive.png);
+  background-size: cover;
+  height: 75vh;
+  width: 50%;
+  display: flex;
+}
+
+.specification-iteam.specification-two {
+  box-shadow: inset 0 0 0 2000px rgb(243 191 33 / 43%);
+}
+.specification-iteam.specification-three {
+  box-shadow: inset 0 0 0 2000px rgb(33 172 243 / 43%);
+}
+.specification-iteam.specification-four {
+  box-shadow: inset 0 0 0 2000px rgb(33 237 243 / 43%);
+}
+
+.specification-detail {
+  margin: auto;
+}
+
+.specification-name {
+  color: #fff;
+  font-size: 82px;
+  text-align: center;
+}
+
+.about-specification {
+  color: #fff;
+  font-size: 72px;
+  text-align: center;
+  font-weight: 400;
+}
+/* specification-section end */
+
+/* other-specification */
+.other-vision {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-vision {
+  background-image: url(./img/Decisive.png);
+  background-size: cover;
+  height: 50vh;
+  width: 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.about-vision.vision-one {
+  box-shadow: inset 0 0 0 2000px rgb(33 172 243 / 43%);
+}
+.about-vision.vision-three {
+  box-shadow: inset 0 0 0 2000px rgb(33 237 243 / 43%);
+}
+.about-vision.vision-four {
+  box-shadow: inset 0 0 0 2000px rgb(33 237 243 / 43%);
+}
+.about-vision.vision-five {
+  box-shadow: inset 0 0 0 2000px rgb(33 172 243 / 43%);
+}
+
+.specific-vision-title {
+  font-size: 172px;
+  font-weight: 100;
+}
+.title-one {
+  color: #92adc9;
+}
+.title-five {
+  color: #92adc9;
+}
+.title-three {
+  color: #7ec6c9;
+}
+.title-four {
+  color: #7ec6c9;
+}
+.title-two {
+  color: #d38a8a;
+}
+.title-six {
+  color: #d38a8a;
+}
+
+h4.specific-vision-subTitle {
+  position: absolute;
+  font-size: 50px;
+  top: 46%;
+  color: #fff;
+  left: 20%;
+}
+/* other-specification end  */
+/* other detail */
+.other-detail {
+  height: 100vh;
+  background-image: url(./img/field-hockey-1537396_1920.jpg);
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #3d2420;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+.other-detail.second-detail{
+  background-image: url(./img/maountainer.jpg);
+  background-color: #274b52;
+  background-blend-mode: overlay;
+}
+
+.main-title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 25%;
+}
+.detail-title {
+  font-size: 82px;
+  font-weight: 600;
+  color: #fff;
+  padding: 36px 0;
+}
+
+.subtitle-a {
+  font-style: italic;
+  font-weight: 100;
+}
+
+.subtitle-b {
+  text-decoration: underline;
+}
+
+/* other detail end  */
