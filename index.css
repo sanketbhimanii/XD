@@ -40,6 +40,7 @@ header {
   padding: 60px 100px 40px 60px;
   justify-content: space-between;
   background-color: #1c2840;
+  align-content: space-between;
 }
 
 .header-logo {
@@ -1017,9 +1018,9 @@ button.clients-btn {
     font-size: 24px;
     padding: 0px 30px;
   }
-  .brand-logo {
+  /* .brand-logo {
     max-width: 200px;
-  }
+  } */
 }
 @media screen and (max-width: 425px) {
   .clients-detail {
@@ -1035,7 +1036,6 @@ button.clients-btn {
 
 /* functionality */
 .functionality {
-  height: 60vh;
   display: flex;
 }
 
@@ -1419,3 +1419,209 @@ button.clients-btn {
 }
 
 /* collective section end */
+
+/* page 03 start */
+
+.LDN-header {
+  background-image: url(./img/zulal-XWf7QmDR960-unsplash.jpg);
+  background-color: #00000082;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  background-blend-mode: overlay;
+}
+.page-name-title.LDN-title {
+  font-size: 48px;
+  color: #fff;
+  font-weight: 400;
+}
+.page-name-LDN {
+  width: 100%;
+}
+
+.LDN-hr {
+  color: black;
+  border: 2px solid;
+  width: 100%;
+}
+.LDN-information {
+  text-align: center;
+  padding: 50px 100px;
+}
+.LDN-information-title {
+  padding: 50px;
+}
+.about-detail.LDN-about-detail {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  padding: 50px 100px;
+}
+
+.LDN-main-title {
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 5em;
+}
+
+.clients-logo.LDN-clients-logo {
+  background: pink;
+  align-content: space-between;
+  padding: 150px 0;
+}
+
+@media screen and (max-width: 1040px) {
+  .page-name-title.LDN-title {
+    font-size: 34px;
+    text-align: center;
+  }
+  .about-detail.LDN-about-detail {
+    padding: 0;
+  }
+  .LDN-hr {
+    width: 30%;
+  }
+  h2.LDN-information-title {
+    font-size: 52px;
+  }
+  .LDN-main-title {
+    padding-bottom: 5em;
+  }
+  .LDN-clients-logo {
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .page-name-title.LDN-title {
+    font-size: 22px;
+    text-align: center;
+  }
+  .about-detail.LDN-about-detail {
+    padding: 0;
+  }
+  .LDN-information {
+    padding: 50px;
+  }
+  h2.LDN-information-title {
+    font-size: 42px;
+  }
+  .LDN-main-title {
+    padding-bottom: 4em;
+  }
+  .LDN-clients-logo {
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .page-name-title.LDN-title {
+    font-size: 18px;
+    text-align: center;
+  }
+  .LDN-information {
+    padding: 50px;
+  }
+  .about-detail.LDN-about-detail {
+    padding: 0;
+  }
+  .LDN-information {
+    padding: 50px;
+  }
+  h2.LDN-information-title {
+    font-size: 32px;
+  }
+  .LDN-main-title {
+    padding-bottom: 2em;
+  }
+  .LDN-clients-logo {
+    gap: 10px;
+  }
+}
+/* page 03 end */
+
+/* Page 04 start */
+.experties-header {
+  background-image: url(./img/sunset.jpg);
+  background-color: #00000082;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  background-blend-mode: overlay;
+}
+
+.other-compny {
+  background-image: url(./img/experties.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: #5085a5;
+  background-blend-mode: multiply;
+  padding: 60px 100px 40px 60px;
+}
+.other-compny-title {
+  font-size: 82px;
+  color: #fff;
+  text-align: center;
+  font-weight: 100;
+  position: relative;
+  padding: 100px 0 30px 0;
+}
+.other-compny-subtitle {
+  font-weight: 600;
+}
+
+.both-section{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 62px;
+  text-align: center;
+  justify-content: space-between;
+ 
+}
+
+.section-left {
+  width: 70%;
+  border: 1px solid #fff;
+  padding: 32px;
+  gap: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 0;
+  justify-content:center;
+}
+
+.section-right{
+  width: 10%;
+  border: 1px solid #fff;
+  padding: 32px;
+  gap: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 0;
+}
+
+.item {
+  background-color: #2c8a99;
+  padding: 10px;
+  width: 230px;
+  height: 200px;
+  box-sizing: border-box;
+}
+.item-title {
+  font-size: 22px;
+  font-weight: 100;
+  text-decoration: underline;
+  color: #fff;
+  padding: 10px 0;
+}
+.item-sub-title {
+  font-size: 20px;
+  color: #fff;
+  padding: 5px 0;
+  text-transform: capitalize;
+  font-weight: 100;
+}
+
+
+/* page 04 end */
